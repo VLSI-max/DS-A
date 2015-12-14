@@ -14,6 +14,11 @@ typedef int Rank; //秩
 template <typename T> 
 class Vector { //向量模板类
 protected: //12 functions and 3 elements
+
+
+	//----
+
+	//----
    Rank _size; int _capacity;  T* _elem; //规模、容量、数据区
    void copyFrom(T const * A, Rank lo, Rank hi); //复制数组区间A[lo, hi)
    void expand(); //空间不足时扩容
